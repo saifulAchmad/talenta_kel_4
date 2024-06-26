@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'talenta4'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2D3AE793835A49AE9CB19F604C2D80D3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2342EB9BCD9C425EBB1510A45F9947B9 }}

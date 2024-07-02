@@ -10,7 +10,7 @@ df_lokasi = df_lokasi[['provinsi', 'kota' , 'kecamatan']].drop_duplicates()
 columns_to_remove = [col for col in df_lokasi.columns if col == '']
 if columns_to_remove:
     df_lokasi = df_lokasi.drop(columns=columns_to_remove)
-st.title("Cari S")
+st.title("Cari Supplier")
 
 
 
